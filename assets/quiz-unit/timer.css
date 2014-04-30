@@ -1,0 +1,3 @@
+#quiz-unit-timer { font: 26px/1.5 'Open Sans Condensed',sans-serif; width: auto; }
+#quiz-unit-timer .countDays,
+#quiz-unit-timer .countDiv0 { display: none; }

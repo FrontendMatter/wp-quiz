@@ -1,0 +1,17 @@
+{
+    "name": "mosaicpro/wp-quiz",
+    "description": "Create and manage Quizzes in WordPress with ease.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Laza Bogdan",
+            "email": "laza.bogdan@macro-net.ro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "~1.0",
+        "mosaicpro/wp-package-test": "dev-master"
+    }
+}

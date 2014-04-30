@@ -1,0 +1,18 @@
+{
+  "name": "mosaicpro-wp-quiz",
+  "private": true,
+  "main": "Gruntfile.js",
+  "version": "0.1.0",
+  "author": "Mosaicpro <contact@mosaicpro.biz> (http://mosaicpro.biz)",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-pot": "~0.1.2",
+    "grunt-po2mo": "~0.1.0",
+    "grunt-newer": "~0.7.0",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-shell": "~0.6.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-compress": "~0.8.0"
+  }
+}
