@@ -112,7 +112,7 @@ class Quizzes extends PluginGeneric
     {
         add_action('admin_menu', function()
         {
-            add_menu_page($this->__('Quizzes'), $this->__('Quizzes'), 'edit_posts', $this->prefix, '', 'dashicons-admin-post', '27.002');
+            add_menu_page($this->__('Quizzes'), $this->__('Quizzes'), 'edit_posts', $this->prefix, '', 'dashicons-editor-help', '27.002');
         });
     }
 
@@ -207,7 +207,7 @@ class Quizzes extends PluginGeneric
      * @param bool $seconds
      * @return bool|mixed
      */
-    public static function get_timer( $quiz_id, $seconds = true )
+    public function get_timer( $quiz_id, $seconds = true )
     {
         $quiz_timer_enabled = get_post_meta($quiz_id, 'timer_enabled', true);
         $quiz_timer_limit = get_post_meta($quiz_id, 'timer_limit', true);

@@ -194,9 +194,10 @@ get_header(); ?>
             {
                 echo "<hr/><h4>" . $quizzes->__('Admin Options') . "</h4>";
                 echo "<p>" . $button_introduction . $button_course . "</p>";
-                echo "<small>Note: Once the quiz has started, these options are only visible to Instructors and Admins for preview purposes;</small>";
+                echo "<small>" . $quizzes->__("Note: Once the quiz has started, these options are only visible to Instructors and Admins for preview purposes;") . "</small>";
             }
-            if ($post_type == 'mp_lms_quiz')
+
+            if ($post_type == $quizzes->getPrefix('quiz'))
             {
                 $history = $quizResults->get_closed($quiz_id, $course_id);
                 if ($history)

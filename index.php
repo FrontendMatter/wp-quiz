@@ -7,7 +7,7 @@ Description: Create and manage Quizzes in WordPress with ease.
 Version: 1.0
 Author: MosaicPro
 Author URI: http://mosaicpro.biz
-Text Domain: mp-lms
+Text Domain: mp-quiz
 */
 
 // If this file is called directly, exit.
