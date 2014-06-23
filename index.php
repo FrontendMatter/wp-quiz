@@ -13,7 +13,7 @@ Text Domain: mp-quiz
 // If this file is called directly, exit.
 if ( ! defined( 'WPINC' ) ) { die; }
 
-use Mosaicpro\Core\IoC;
+use Mosaicpro\HtmlGenerators\Core\IoC;
 use Mosaicpro\WpCore\Plugin;
 
 // Plugin libraries
@@ -27,6 +27,9 @@ $libraries = [
 // Plugin initialization
 add_action('plugins_loaded', function() use ($libraries)
 {
+    if (!class_exists('Mosaicpro\\HtmlGenerators\\Core\\IoC') || !class_exists('Mosaicpro\\WpCore\\Plugin'))
+        return;
+
     // Get the Container from IoC
     $app = IoC::getContainer();
 

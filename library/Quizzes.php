@@ -1,6 +1,6 @@
 <?php namespace Mosaicpro\WP\Plugins\Quiz;
 
-use Mosaicpro\Core\IoC;
+use Mosaicpro\HtmlGenerators\Core\IoC;
 use Mosaicpro\WpCore\CRUD;
 use Mosaicpro\WpCore\Date;
 use Mosaicpro\WpCore\MetaBox;
