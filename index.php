@@ -27,7 +27,7 @@ $libraries = [
 // Plugin initialization
 add_action('plugins_loaded', function() use ($libraries)
 {
-    if (!class_exists('Mosaicpro\\HtmlGenerators\\Core\\IoC') || !class_exists('Mosaicpro\\WpCore\\Plugin'))
+    if (!class_exists('Mosaicpro\\HtmlGenerators\\Core\\IoC') || !class_exists('Mosaicpro\\WpCore\\PluginActivated'))
         return;
 
     // Get the Container from IoC
