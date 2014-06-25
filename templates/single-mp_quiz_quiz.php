@@ -20,10 +20,10 @@
  ***************** NOTICE: *****************
  */
 
-use Mosaicpro\Button\Button;
-use Mosaicpro\ButtonGroup\ButtonGroup;
-use Mosaicpro\ListGroup\ListGroup;
-use Mosaicpro\Panel\Panel;
+use Mosaicpro\HtmlGenerators\Button\Button;
+use Mosaicpro\HtmlGenerators\ButtonGroup\ButtonGroup;
+use Mosaicpro\HtmlGenerators\ListGroup\ListGroup;
+use Mosaicpro\HtmlGenerators\Panel\Panel;
 use Mosaicpro\WP\Plugins\Quiz\QuizAnswers;
 use Mosaicpro\WP\Plugins\Quiz\QuizResults;
 use Mosaicpro\WP\Plugins\Quiz\QuizUnits;

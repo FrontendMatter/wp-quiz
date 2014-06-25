@@ -20,8 +20,8 @@
  ***************** NOTICE: *****************
  */
 
-use Mosaicpro\Button\Button;
-use Mosaicpro\Panel\Panel;
+use Mosaicpro\HtmlGenerators\Button\Button;
+use Mosaicpro\HtmlGenerators\Panel\Panel;
 use Mosaicpro\WP\Plugins\Quiz\Quizzes;
 
 $quizzes = Quizzes::getInstance();
